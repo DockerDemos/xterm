@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dbus-daemon --session --fork 
+
+xterm &
+
+fluxbox &

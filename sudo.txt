@@ -1,0 +1,4 @@
+guest ALL=NOPASSWD: /sbin/service *
+guest ALL=NOPASSWD: /bin/chown -R guest /home/guest
+guest ALL=NOPASSWD: /bin/chmod 750 /home/guest/.vnc/xstartup
+guest ALL=NOPASSWD: /bin/chmod 750 /home/guest/.Xclients

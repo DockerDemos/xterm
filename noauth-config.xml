@@ -1,0 +1,8 @@
+<configs>
+    <config name="vnc" protocol="vnc">
+        <param name="hostname" value="localhost" />
+        <param name="port" value=":VNCPORT:" />
+        <param name="password" value=":VNCPASSWORD:" />
+    </config>
+
+</configs>
