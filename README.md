@@ -21,6 +21,7 @@ with this
 
 Example Usage
 =============
+```
 docker build -t guac .
 export PUBLICPORT=8080
 export VNCDISPLAY=1
@@ -31,3 +32,4 @@ docker run \
     --rm=true -i --tty=true \
     -e "VNCDISPLAY=${VNCDISPLAY}" \
     guac
+```
